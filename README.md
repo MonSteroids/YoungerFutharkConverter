@@ -2,9 +2,12 @@
 
 ## Description
 
-The **Young Futhark Converter** is a simple Java-based GUI application that converts user-provided text into Younger Futhark runes, an ancient runic alphabet used by Vikings. The app features an easy-to-use graphical interface built with `Swing`.
+The **Young Futhark Converter** is a simple Java-based GUI application 
+that converts user input into Younger Futhark runes. 
+The app features an easy-to-use graphical interface built with `Swing`.
 
-This project is designed to practice Java skills and explore GUI programming with `Swing`. The app includes a `Convert` button to perform the text conversion and allows users to copy the output for further use.
+This project is designed to practice Java skills and explore GUI programming with `Swing`.
+Note: This was made as an exercise for myself.
 
 ---
 
@@ -32,6 +35,15 @@ To run this application, you'll need the following:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/young-futhark-converter.git
-   cd young-futhark-converter
+   git clone https://github.com/MonSteroids/YoungerFutharkConverter.git
+   cd you/file/path/YoungerFutharkConverter/
+
+2. Compile code:
+    ```bash
+    javac Gui.java YoungFutharkConvert.java
+
+3. Run program:
+    ```bash
+    java YoungFutharkConvert
+
 
