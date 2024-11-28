@@ -5,6 +5,12 @@ import java.awt.event.ActionListener;
 
 public class Gui {
     public Gui() {
+        // Specify font path
+        String fontPath = "fonts/Junicode.ttf";
+
+        // Load the font
+        Font runeFont = FontLoader.loadCustomFont(fontPath, 16f);
+
         // Create the main frame
         JFrame frame = new JFrame();
 
@@ -17,7 +23,7 @@ public class Gui {
         JTextField textField = new JTextField(20); // Input field for user text
         JTextField resultField = new JTextField(); // Field to display the converted text
         resultField.setEditable(false); // Prevent editing
-        resultField.setFont(new Font("Arial", Font.BOLD, 16)); // Increase font size for result
+        resultField.setFont(runeFont); // Apply custom font
         resultField.setPreferredSize(new Dimension(400, 30)); // Fixed size for result field
 
         // Fix sizes for textField and button
