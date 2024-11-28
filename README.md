@@ -7,6 +7,7 @@ that converts user input into Younger Futhark runes.
 The app features an easy-to-use graphical interface built with `Swing`.
 
 This project is designed to practice Java skills and explore GUI programming with `Swing`.
+
 Note: This was made as an exercise for myself.
 
 ---
