@@ -3,6 +3,10 @@ public class YoungFutharkConvert{
 		if (input == null || input.isEmpty()) {
 			return "No input provided!";
 		}
+
+    // Replace white space with " : "
+    input = input.replaceAll("\\s", " : ");
+
 		return input.toLowerCase()
             		.replace("a", "ᛅ")  // Ár
             		.replace("á", "ᛅ")  // Same as 'a'
